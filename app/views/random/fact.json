@@ -1,0 +1,10 @@
+body:  {
+    access_token: token,
+    v: version,
+    user_id: @request_body['object']['user_id'],
+    message: @facts.sample,
+    random_id: Random.new_seed,
+    attachment: ['photo-165384569_456239513', 'photo-165384569_456239515',
+    'photo-165384569_456239516', 'photo-165384569_456239517', 'photo-165384569_456239518',
+    'photo-165384569_456239519', 'photo1146548_456240349'].sample
+ }
